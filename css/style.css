@@ -1,0 +1,26 @@
+@charset "utf-8";
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+.active {
+	color: 	white;
+	background: green;
+}
+.acc,
+div[class^=acc0] {
+	padding: 10px;
+}
+.acc {
+	margin-top: 10px;
+	border: 1px solid green;
+}
+.acc:hover {
+	color: white;
+	background: #34bc2d;
+	cursor: pointer;
+}
+div[class^=acc0] {
+	display: none;
+	border: 1px solid gray;
+}
